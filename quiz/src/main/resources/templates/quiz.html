@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>প্রশ্নপত্র</title></head>
+<body>
+<form action="/submit-quiz" method="post">
+    <input type="hidden" name="studentId" value="[[${studentId}]]" />
+    <h3>১. অর্থনীতির মূল উদ্দেশ্য কী?</h3>
+    <input type="radio" name="q1" value="option1"> লাভ অর্জন<br>
+    <input type="radio" name="q1" value="option2"> সম্পদের সর্বোত্তম ব্যবহার<br>
+    <input type="radio" name="q1" value="option3"> ব্যয় বৃদ্ধি<br>
+    <input type="radio" name="q1" value="option4"> চাহিদা হ্রাস<br>
+
+    <h3>২. কোনটি অর্থনৈতিক সমস্যা?</h3>
+    <input type="radio" name="q2" value="option1"> খেলাধুলা<br>
+    <input type="radio" name="q2" value="option2"> বিনোদন<br>
+    <input type="radio" name="q2" value="option3"> সীমিত সম্পদ<br>
+    <input type="radio" name="q2" value="option4"> অবসর সময়<br>
+
+    <button type="submit">জমা দিন</button>
+</form>
+</body>
+</html>
